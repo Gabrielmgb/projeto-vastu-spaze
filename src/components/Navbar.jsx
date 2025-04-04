@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="border-b-2">
+    <nav className="border-b-2 shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
         <div className="pl-2">
           <a href="#">
@@ -34,7 +34,7 @@ const NavBar = () => {
             <a
               key={index}
               href={link.link}
-              className="uppercase text-sm font-medium"
+              className="uppercase text-sm font-medium hover:text-neutral-400 duration-200"
             >
               {link.name}
             </a>

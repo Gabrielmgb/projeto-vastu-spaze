@@ -25,7 +25,7 @@ const Services = () => {
                 index % 2 === 0 ? "lg:pl-12" : "lg:pr-12"
               }`}
             >
-              <h3 className="text-xl lg:text-2xl font-medium mb-2">
+              <h3 className=" font-bold text-xl lg:text-2xl mb-2">
                 {service.title}
               </h3>
               <p className="mb-4 lg:tracking-wide text-lg lg:text-xl lg:leading-9">
