@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-2xl pr-2 focus:outline-none"
+            className="text-2xl pr-2 focus:outline-none p-2 rounded-lg hover:bg-neutral-800/40 duration-400 cursor-pointer"
             aria-label={isOpen ? "Close menu" : "Open menu"}
           >
             {isOpen ? <RiCloseLine /> : <RiMenu3Line />}
@@ -50,7 +50,7 @@ const NavBar = () => {
           <a
             key={index}
             href={link.link}
-            className="uppercase text-lg font-medium block py-2 tracking-wide"
+            className="uppercase text-lg font-medium block py-2 tracking-wide hover:text-neutral-400 duration-200"
           >
             {link.name}
           </a>
