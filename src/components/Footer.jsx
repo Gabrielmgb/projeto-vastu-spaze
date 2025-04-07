@@ -8,25 +8,28 @@ const Footer = () => {
                 <a href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit our Facebook page">
+                aria-label="Visit our Facebook page"
+                className="hover:text-slate-500 duration-300">
                     <RiFacebookFill/>
                 </a>
 
                 <a href="https://www.twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit our Twitter page">
+                aria-label="Visit our Twitter page"
+                className="hover:text-slate-500 duration-300">
                     <RiTwitterFill/>
                 </a>
 
                 <a href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit our Instagram page">
+                aria-label="Visit our Instagram page"
+                className="hover:text-slate-500 duration-300">
                     <RiInstagramFill/>
                 </a>
             </div>
-            <p className="text-sm">&copy; 2026 VastuSpaze. All rights reserved.</p>
+            <p className="text-sm">&copy; 2025 VastuSpaze. All rights reserved.</p>
         </div>
     </footer>
   )
