@@ -13,14 +13,14 @@ const App = () => {
   return (
     <div>
       <main class="overflow-x-hidden antialiased text-neutral-800">
-        <NavBar/>
-        <Hero/>
-        <Services/>
-        <Portfolio/>
-        <About/>
-        <Reviews/>
-        <ContactUs/>
-        <Footer/>
+        <NavBar />
+        <Hero />
+        <Services />
+        <Portfolio />
+        <About />
+        <Reviews />
+        <ContactUs />
+        <Footer />
       </main>
     </div>
   );
